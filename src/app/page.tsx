@@ -16,9 +16,6 @@ export default async function Home() {
         <h1 className="text-5xl font-extrabold tracking-tight sm:text-[5rem]">
           Task <span className="text-[hsl(280,100%,70%)]">Manager</span>
         </h1>
-        <p className="text-xl text-white/80">
-          Manage your tasks efficiently and stay organized
-        </p>
         <div className="flex gap-4">
           <Button asChild size="lg">
             <Link href="/sign-up">Get Started</Link>
